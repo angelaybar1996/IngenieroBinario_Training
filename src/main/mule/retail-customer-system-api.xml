@@ -156,6 +156,7 @@ output application/json
 } as Object {encoding: "UTF-8", mediaType: "application/json"}]]></ee:set-payload>
             </ee:message>
         </ee:transform>
+		<set-payload value="Este metodo borra segun el ID" doc:name="Set Payload" doc:id="d5b6894d-bdae-44d8-8486-fb5fbf0985e4" />
     </flow>
     <flow name="get:\customers\(customerId):retail-customer-system-api-config">
         <ee:transform doc:name="Transform Message">
